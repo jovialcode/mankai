@@ -1,0 +1,93 @@
+name: mankai
+description: "mankai"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Logging
+  logger: any
+
+  # Icon
+  cupertino_icons: ^1.0.6
+
+  # Object
+  retrofit: ^4.0.0
+  json_annotation: ^4.0.0
+  freezed: ^2.0.0
+
+  # local storage
+  shared_preferences: ^2.0.0
+
+  # Animation
+  carousel_slider: ^4.0.0
+  flame: ^1.17.0
+  flame_tiled: ^1.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Object
+  equatable: ^2.0.0
+  meta: ^1.0.0
+  sprintf: ^7.0.0
+  uuid: ^3.0.0
+  sqflite: ^2.3.0
+  json_serializable: any
+  build_runner: '>=2.3.0 <4.0.0'
+
+  # UI
+  flutter_svg: ^2.0.0
+  dotted_border: ^2.0.0
+  shimmer: ^3.0.0
+
+  # UI - slide
+  carousel_slider: ^4.2.1
+
+  # API
+  dio: ^5.0.0
+  retrofit_generator: '>=7.0.0 <8.0.0'
+
+  # Bloc
+  flutter_bloc: ^8.0.0
+
+  # Lint
+  flutter_lints: ^3.0.0
+
+  # Unit test
+  test:
+  bloc_test: 9.1.7
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: NotoSansKR
+      fonts:
+        - asset: assets/fonts/NotoSansKR-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansKR-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/NotoSansKR-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoSansKR-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+    - assets/tiles/
+    - assets/images/Terrain/
+    - assets/images/Main Characters/Mask Dude/
+    - assets/images/Main Characters/Ninja Frog/
+    - assets/images/Main Characters/Pink Man/
+    - assets/images/Main Characters/Virtual Guy/
